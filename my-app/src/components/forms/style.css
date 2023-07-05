@@ -1,0 +1,71 @@
+.wrapper-form-signIn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+
+.form-signIn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+.label-text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.submit {
+    width: 200px;
+    border-radius: 10px;
+    background-color: rgba(32, 72, 180, 0.8);
+    color: white;
+    padding: 5px 8px;
+    margin-left: 35px;
+    cursor: pointer;
+    margin: 20px 20px;
+}
+
+.wrapper-back-button {
+    position: fixed;
+    left: 900px;
+}
+
+.button-back {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.button-home:hover {
+    background-color: rgba(32, 72, 180, 0.8); ;
+}
+
+.button-back:hover {
+    background-color: rgba(32, 72, 180, 0.8);
+}
+
+.error-text {
+    color: red;
+    text-align: center;
+    margin-top: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.wrapper-error-rext {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 200px;
+    margin-left: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .wrapper-back-button {
+        display: none;
+    }
+
+}

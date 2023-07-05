@@ -1,0 +1,14 @@
+.form-auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.label-checkbox {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+

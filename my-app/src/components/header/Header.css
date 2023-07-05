@@ -1,0 +1,42 @@
+.header-wrapper {
+    display: flex;
+    justify-content: start;
+    background-color: rgba(32, 72, 180, 0.896);
+    min-height: 50px;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.header-wrapper_title {
+    font-size: 25px;
+    color: white;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.header-text-auth {
+    margin-right: 10px;
+}
+
+.wrapper-auth-text {
+    display: flex;
+    align-items: center;
+}
+
+.link-header {
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 30px;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+.link-header:hover {
+    background-color: rgb(247, 239, 239);
+    color: #070707;
+    box-shadow: inset 0 0 0 3px rgb(57 46 207 / 99%);
+}

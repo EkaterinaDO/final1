@@ -1,0 +1,94 @@
+.wrapper-cases {
+    margin-top: 100px;
+}
+
+.btn-main__delete {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgba(32, 72, 180, 0.8);
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    text-align: center;
+}
+
+.btn-main__delete:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #070707;
+    box-shadow: inset 0 0 0 3px rgb(57 46 207 / 99%);
+}
+
+.table {
+    width: 700px;
+    border: 2px solid rgb(19, 13, 13);
+    border-collapse: collapse;
+    width: 100%;
+    word-break: break-all;
+    table-layout: fixed;
+    margin-bottom: 100px;
+}
+
+.row {
+    border-bottom: 2px solid rgb(19, 13, 13);
+}
+
+.row-title {
+    border-bottom: 2px solid rgb(19, 13, 13);
+    font-size: 25px;
+}
+
+th, td {
+    font-size: 20px;
+    border: 3px solid black;
+    padding: 9px;
+}
+
+.wrapper-create-case {
+    text-align: center;
+}
+
+.form-create-case {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.label-text-create-case {
+    display: flex;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.label-text-create-case_checkbox {
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+
+.label-text-create-case_textarea {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.textarea-create-case {
+    width: 500px;
+    height: 100px;
+    padding: 10px;
+}
+
+.input-create-case {
+    margin-left: 20px;
+}
+
+.input-create-case:focus {
+    border: 3px solid rgb(46, 46, 196);
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+
+}

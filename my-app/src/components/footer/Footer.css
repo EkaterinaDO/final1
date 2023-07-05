@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(32, 72, 180, 0.896);
+    padding: 0 20px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer-text {
+    color: white;
+    font-size: 23px;
+}
+
+.contacts {
+    color: white;
+}
